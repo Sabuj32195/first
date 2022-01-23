@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!---header starts here-->
+    <section>
+      <div class="header-part">
+        <div class="header">
+            <div class="logo"><h2>Triple.Bd</h2></div>
+            <div class="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </div>
+        </div>
+      </div>  
+    </section>
+    <!---header ends here-->
+    <!---sideshow starts here-->
+    <section>
+        <div id="home" class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="img2.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="img2.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="img2.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+            
+    </section>
+    <!--sideshow ends here-->
+    <!--product items starts here-->
+    <section>
+          <div id="products" class="product">
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img2.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img3.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div>
+            </div>
+            <div class="item">
+              <img src="img1.jpg" alt="my image" style="height:300px;width:auto;">
+              <h2>100% cutton</h2>
+                <p>Quality:</p>
+                <p>Size:50X40</p>
+                <p>Prize:150tk</p>
+                <button> Order Now</button>
+              
+            </div> 
+          </div>       
+    </section>
+<!--about us section starts here-->
+<section>
+    <div id="about-us" class="about-us"><h2>About Us</h2>
+        <div class="left"> 
+            <p><span>HI,</span>Welcome to our official website.Hrere you can get most attractive house designe based products .We aslo take commercial order if you need more products.we always believe in the satisfaction of customers. Thanks. </p>
+        </div>
+        <div class="right">
+            <p>TipleHometex</p>
+            <p>----------------------------------------------</p>
+            <p>Address: Uttarkhan,Munda,dhaka</p>
+            <p>----------------------------------------------</p>
+            <p>Email: triplehometex@gamil.com</p>
+            <p>----------------------------------------------</p>
+            <p>phone:+88013113935456</p>
+            <p>----------------------------------------------</p>
+            <p>website:TripleHometex.bd.com</p>
+            <p>----------------------------------------------</p>
+        </div>
+        
+      </div>      
+</section>
+
+<!--footer section starts here-->
+<section>
+    <div id="contact-us" class="footer">
+        <div class="right-footer">
+           <h2>CONTACT US</h2>
+           <i class="fa fa-envelope"> info@triplehometex.com </i><br>
+           <i class="fa fa-phone"> +01980032828</i><br>
+           <i class="fa fa-home"> Shope #111/A Munda Uttarkhan,Dhaka-1230</i><br>
+           
+             <div class="footer-icon">
+               <i class="fa fa-facebook"></i>
+               <i class="fa fa-twitter"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-youtube"></i>
+               <i class="fa fa-pinterest"></i>
+               <i class="fa fa-rss"></i>
+               
+               
+             </div>
+       
+         </div>
+        <div class="left-area">
+          <p>
+           Adorn your home with sTyLe! We want to turn Houses into HOMES and TRANSACTIONS into RELATIONSHIPS. No more trekking from store to store, trolling through isles and isles of brandished homey products to find what YOU want! "We'll never let you down" - providing the most compelling shopping experience possible.
+          </p>
+        </div>
+       </div>
+</section>
+
+
+</body>
+</html>
